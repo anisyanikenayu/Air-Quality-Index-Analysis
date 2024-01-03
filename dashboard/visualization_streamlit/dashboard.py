@@ -83,7 +83,7 @@ def daily_aqi_merged(df):
     return all_df_with_aqi
 
 # Load cleaned data
-all_df = pd.read_csv("all_data_changping.csv")
+all_df = pd.read_csv("dashboard/visualization_streamlit/all_data_changping.csv")
 
 datetime_columns = ["date"]
 all_df.sort_values(by="date", inplace=True)
