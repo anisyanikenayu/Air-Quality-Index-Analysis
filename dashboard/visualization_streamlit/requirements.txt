@@ -3,4 +3,4 @@ plotly==5.18.0
 seaborn==0.13.0
 streamlit==1.29.0
 babel==2.6.0
-pipreqs==0.4.13
+pipreqs
